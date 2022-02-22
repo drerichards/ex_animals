@@ -1,4 +1,4 @@
-package com.andrerichards;
+package com.andrerichards.animals;
 
 public class Dog extends Animal {
     private String coat;
@@ -36,7 +36,7 @@ public class Dog extends Animal {
     public void run(int speed) {
         System.out.println("Dog.run() called");
         // call without "super" to get default method with overrides
-        move(speed);
+        this.move(speed);
     }
 
     @Override // inherits super props and allows adding more within this context

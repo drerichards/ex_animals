@@ -1,4 +1,4 @@
-package com.andrerichards;
+package com.andrerichards.animals;
 
 public abstract class Animal {
     private String name;

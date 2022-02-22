@@ -1,6 +1,6 @@
 package com.andrerichards;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int brain;
     private int body;
@@ -36,10 +36,10 @@ public class Animal {
     }
 
     public void eat() {
-
+        System.out.println("Animal.eat() is eating.");
     }
 
-    public void move() {
-
+    public void move(int speed) {
+        System.out.println("Animal.move() " + speed + "mph.");
     }
 }

@@ -37,9 +37,11 @@ public abstract class Animal {
 
     public void eat() {
         System.out.println("Animal.eat() is eating.");
+        System.out.println("");
     }
 
     public void move(int speed) {
         System.out.println("Animal.move() " + speed + "mph.");
+        System.out.println("");
     }
 }

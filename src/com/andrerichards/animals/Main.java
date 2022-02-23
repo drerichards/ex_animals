@@ -1,4 +1,4 @@
-package com.andrerichards;
+package com.andrerichards.animals;
 
 import com.andrerichards.animals.Dog;
 
